@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: darkblue;
+    margin: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 5px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+a {
+    color: skyblue;
+}
+
+a:hover {
+    color: lawngreen;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:active {
+    color: red;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    background: grey;
+}
+
+.date {
+    font-style: italic;
+    color: yellow;
+    font-size: 5px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+ul, ol {
+    margin: 20px;
+    padding-left: 40px;
+    color: #2c3e50;
+}
+
+
+blockquote {
+    font-style: italic;
+    color: white;
+    background: white;
+    border-left: 5px solid blue;
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: blue;
+    font-weight: bold;
+}
+
+footer {
+    background: grey;
+    color: blue;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: green;
+}
